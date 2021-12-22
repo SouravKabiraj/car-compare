@@ -2,7 +2,7 @@
 
 User - <code>ID, Name</code>
 
-Car - <code>ID, Name, ReleaseDate, Description, List[ComparableAttribute]</code>
+Car - <code>ID, Name, ReleaseDate, Description, List[ComparableAttribute], List[Photo]</code>
 
 ComparableAttribute - <code>ID, AttributeName, Value,</code> 
 <code> int compareTo(ComparableAttribute)</code>
@@ -10,3 +10,5 @@ ComparableAttribute - <code>ID, AttributeName, Value,</code>
 AttributeComparisonReport - <code> ID, List[ComparableAttribute1,ComparableAttribute2], isSimilar</code>
 
 ComparisonReport - <code>ID, List[CarName], List[AttributeComparisonReport]</code> 
+
+Recommendation Model - [GRAPH] <code>[u1:User]->[v:viewed]->[c1:Car]</code>
