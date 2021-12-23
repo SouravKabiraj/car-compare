@@ -10,7 +10,7 @@
 2. Fetch recommended car list for viewed car
    <p><h5>REQUEST:</h5>
    <code>GET</code>    
-   <code>[baseUrl]/api/recommend/car?viewedCar=CARID10</code></p>
+   <code>[baseUrl]/api/recommend/car?viewedCar=CARID10&limit=10</code></p>
    <p><h5>RESPONSE:</h5>
    Status <code>OK</code>
    Body <code>[CARID1,CARID5,CARID9,CARID3] </code></p>

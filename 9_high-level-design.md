@@ -11,9 +11,9 @@ to Gateway service which is single point of contract for our sub system</li>
 </ol>
 
 <h4>Flow 2:</h4> User asked for recommendation <code>GET</code><code>[baseUrl]
-/api/recommend/car?viewedCar=CARID10</code>
+/api/recommend/car?viewedCar=CARID10&limit=10</code>
 <ol>
-    <li>Once user asked for car details a <code>GET</code><code>[baseUrl]/api/recommend/car?viewedCar=CARID10</code> request will go
+    <li>Once user asked for car details a <code>GET</code><code>[baseUrl]/api/recommend/car?viewedCar=CARID10&limit=10</code> request will go
 to Gateway service which is single point of contract for our sub system</li>
     <li>Gateway Service authenticate and authorized the request by calling IAM service</li>
     <li>Once IAM approve the request it sends the approval to gateway and gateway calls Car recommendation Engine/li>
