@@ -11,4 +11,4 @@ AttributeComparisonReport - <code> ID, AttributeName, List[ComparableAttribute1,
 
 CarComparisonReport - <code>ID, List[CarName], List[AttributeComparisonReport]</code> 
 
-Recommendation Model - [GRAPH] <code>[u1:User]->[v:viewed]->[c1:Car]</code>
+Recommendation Model - [GRAPH] <code>[u1:User]->[v:compared]->[c1:Car]</code>
