@@ -9,6 +9,6 @@ ComparableAttribute - <code>ID, AttributeName, Value,</code>
 
 AttributeComparisonReport - <code> ID, List[ComparableAttribute1,ComparableAttribute2], isSimilar</code>
 
-ComparisonReport - <code>ID, List[CarName], List[AttributeComparisonReport]</code> 
+CarComparisonReport - <code>ID, List[CarName], List[AttributeComparisonReport]</code> 
 
 Recommendation Model - [GRAPH] <code>[u1:User]->[v:viewed]->[c1:Car]</code>
