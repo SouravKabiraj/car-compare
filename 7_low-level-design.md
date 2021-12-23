@@ -7,7 +7,7 @@ Car - <code>ID, Name, ReleaseDate, Description, List[ComparableAttribute], List[
 ComparableAttribute - <code>ID, AttributeName, Value,</code> 
 <code> int compareTo(ComparableAttribute)</code>
 
-AttributeComparisonReport - <code> ID, List[ComparableAttribute1,ComparableAttribute2], isSimilar</code>
+AttributeComparisonReport - <code> ID, AttributeName, List[ComparableAttribute1,ComparableAttribute2], isSimilar</code>
 
 CarComparisonReport - <code>ID, List[CarName], List[AttributeComparisonReport]</code> 
 
